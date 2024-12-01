@@ -1,0 +1,71 @@
+@font-face
+{
+    font-family: Celt; 
+    src: url(../ASSETS/FONTS/CELTG___.TTF);
+}
+
+@font-face
+{
+    font-family: RNT;
+    src: url(../ASSETS/FONTS/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../ASSETS/IMAGES/BGfodaOrdem.png);
+}
+
+#resultado
+{
+    color: white;
+    font-family: RNT;
+    position: absolute;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    font-size: 50px;
+    left: 16.7%;
+    top: 20.5%;
+    background-color: #070707;
+    border-style: solid;
+    border-radius: 7px;
+    width: 66.6%;
+    word-break: break-all;
+    text-align: justify;
+}
+
+#teclado
+{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    color: white;
+    font-family: RNT;
+    font-size: 35px;
+    background-color:#070707;
+    padding: 1%;
+    margin-top: 15%;
+    border-style: solid;
+    border-radius: 7px;
+    width: 66.6%;
+}
+
+button 
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: none;
+}
+
+#resetbtt
+{
+    color: white;
+    font-family: RNT;
+    font-size: 35px;
+}
